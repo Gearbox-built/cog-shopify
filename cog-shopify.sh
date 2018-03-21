@@ -25,6 +25,9 @@ shopify::setup_dev()
   # [$dir],[$theme-id],[$store],[$password]
   cog::params "$@" --optional="dir theme-id store password"
   shopify::config::find_or_create "$@"
+
+  warning_check "Proceeding to download ${YELLOW}all${NC} theme files."
+  theme download
 }
 
 
