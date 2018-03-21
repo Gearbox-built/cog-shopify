@@ -1,0 +1,14 @@
+{
+  "name": "cog-shopify",
+  "version": "0.0.1",
+  "description": "Cog module for Shopify",
+  "global": "false",
+  "files": [
+    "cog-shopify.sh",
+    "lib/config.sh",
+    "lib/requirements.sh"
+  ],
+  "dependencies": [
+    "gearbox-built/cog-wp"
+  ]
+}
